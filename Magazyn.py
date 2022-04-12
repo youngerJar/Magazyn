@@ -13,8 +13,7 @@ Farba={"name":"Farba",
 items =[Milk, Mug, Farba]
 headers = ["Name","Quantity","Unit","Unit Price (PLN)"]
 def get_items():
-  print(items)
-
+    print(items)
 
 word = input("What would you like to do?")
 while word != "exit":
@@ -23,3 +22,4 @@ while word != "exit":
         word = input("What would you like to do?")
 else:
     print("Exiting, bye!")
+
