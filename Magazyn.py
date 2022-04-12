@@ -3,19 +3,20 @@ Milk = {"Name":"Milk",
          "Unit":"L",
          "Unit_price":"PLN"}
 Mug = {"Name":"Mug",
-         "quantity":"30",
-         "unit":"szt",
-         "unit_price":"PLN"}
-Farba = {"Name":"Farba",
-       "quantity":"3000",
-       "unit":"L",
-       "unit_price":"PLN"}
+         "Quantity":" 30",
+         "Unit":"szt",
+         "Unit_price":"PLN"}
+Farba = {"Name":"Farb",
+       "Quantity":"3000",
+       "Unit":"L",
+       "Unit_price":"PLN"}
 items =[Milk, Mug, Farba]
 headers = ("Name\tQuantity\tUnit\tUnit Price (PLN)")
+sold_items= []
 def get_items():
     print(headers)
     for i in items:
-        print(i["Name"],)
+        print(i["Name"],i["Quantity"],i["Unit"],i["Unit_price"])
 
 word = input("What would you like to do?")
 while word != "exit":
