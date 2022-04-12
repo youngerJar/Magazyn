@@ -7,8 +7,9 @@ Mug = {"name":"Coffee Mug",
          "unit":"szt",
          "unit_price":"PLN"}
 
-
 word = input("What would you like to do?")
 if word =="exit":
     print("Exiting...bye!")
     exit(1)
+word = input("What would you like to do?")
+
