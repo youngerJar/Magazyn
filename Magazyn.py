@@ -15,12 +15,11 @@ headers = ["Name","Quantity","Unit","Unit Price (PLN)"]
 def get_items():
   print(items)
 
-word = input("What would you like to do?")
-if word =="exit":
-    print("Exiting...bye!")
-    exit(1)
-word = input("What would you like to do?")
-if word =="show":
-  get_items
-  word = input("What would you like to do?")
 
+word = input("What would you like to do?")
+while word != "exit":
+    if word =="show":
+        get_items()
+        word = input("What would you like to do?")
+else:
+    print("Exiting, bye!")
