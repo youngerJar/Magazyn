@@ -2,7 +2,7 @@ Milk = {"name":"Milk",
          "quanatity":"120",
          "unit":"l",
          "unit_price":"PLN"}
-Mug = {"name":"Coffy mug",
+Mug = {"name":"Coffee Mug",
          "quanatity":"30",
          "unit":"szt",
          "unit_price":"PLN"}
