@@ -11,10 +11,16 @@ Farba={"name":"Farba",
        "unit":"L",
        "unit_price":"PLN"}
 items =[Milk, Mug, Farba]
-headers = ["Name","Quantity","Unit","Unit Price (PLN)")
+headers = ["Name","Quantity","Unit","Unit Price (PLN)"]
+def get_items():
+  print(items)
+
 word = input("What would you like to do?")
 if word =="exit":
     print("Exiting...bye!")
     exit(1)
 word = input("What would you like to do?")
+if word =="show":
+  get_items
+  word = input("What would you like to do?")
 
