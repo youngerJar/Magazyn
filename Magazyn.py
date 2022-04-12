@@ -26,7 +26,6 @@ def add_item():
     new_item["Unit_price"]= input("Item price: ")
     items.append((new_item))
 
-
 word = input("What would you like to do?")
 while word != "exit":
     if word =="show":
@@ -36,6 +35,10 @@ while word != "exit":
         print("Adding to warehause:")
         add_item()
         word= input("What would you like to do?")
+    if word =="sell":
+        sell_items
+    
+        
 else:
     print("Exiting, bye!")
 
