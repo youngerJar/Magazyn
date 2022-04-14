@@ -13,7 +13,7 @@ Farba = {"Name":"Farb",
        "Unit_price":"21"}
 items =[Milk, Kubek, Farba]
 headers = ("Name\tQuantity\tUnit\tUnit Price (PLN)")
-sold_items= []
+
 def get_items():
     print(headers)
     for i in items:
