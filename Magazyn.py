@@ -3,7 +3,7 @@ Milk = {"Name":"Milk",
          "Quantity":"120",
          "Unit":"L",
          "Unit_price":"32"}
-Mug = {"Name":"Mug",
+Kubek = {"Name":"Kubek",
          "Quantity":"23",
          "Unit":"szt",
          "Unit_price":"22"}
@@ -11,7 +11,7 @@ Farba = {"Name":"Farb",
        "Quantity":"3000",
        "Unit":"L",
        "Unit_price":"21"}
-items =[Milk, Mug, Farba]
+items =[Milk, Kubek, Farba]
 headers = ("Name\tQuantity\tUnit\tUnit Price (PLN)")
 sold_items= []
 def get_items():
