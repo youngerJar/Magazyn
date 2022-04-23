@@ -25,9 +25,11 @@ def add_item():
     new_item["Unit"]= input("Item Unit: ")
     new_item["Unit_price"]= input("Item price: ")
     items.append((new_item))
-#def sell_item():
+def sell_item():
+    sold_item ={}
+    sold_item = ["Name"]= input("what prodyct to sell: ")
+       
     
-
 word = input("What would you like to do?")
 while word != "exit":
     if word =="show":
@@ -39,6 +41,7 @@ while word != "exit":
         word= input("What would you like to do?")
     if word =="sell":
         sell_item()
+        word= input("What would you like to do?")
     
         
 else:
