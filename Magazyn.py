@@ -25,7 +25,7 @@ def add_item():
     new_item["Unit"]= input("Item Unit: ")
     new_item["Unit_price"]= input("Item price: ")
     items.append((new_item))
-def sell_item():
+#def sell_item():
     
 
 word = input("What would you like to do?")
